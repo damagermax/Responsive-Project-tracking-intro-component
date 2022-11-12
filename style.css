@@ -32,6 +32,7 @@ body {
   font-family: "Barlow", sans-serif;
   overflow-x: hidden;
   position: relative;
+  min-height: 100vh;
 }
 
 body::before {
@@ -246,6 +247,10 @@ header #navMenu {
   }
   .hero img {
     max-width: 140%;
+  }
+
+  .hero .cta {
+    margin-bottom: 4rem;
   }
 }
 @media (max-width: 305px) {
